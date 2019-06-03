@@ -49,3 +49,4 @@ if __name__ == "__main__":
     print("debug print")
     plt.barh(range(6),dicerolls)
     plt.show()
+    print("hans horst was here")
