@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# team: gowi, cc, marcel, a. s. hole
+# team: gowi, cc, marcel
 # expert of exercise block 1: marcel
 
 import random
