@@ -4,6 +4,8 @@
 # team: gowi, cc, marcel
 # expert of exercise block 1: marcel
 
+#lalallala a new comment
+
 import random
 import time
 import sys
