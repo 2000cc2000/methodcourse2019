@@ -18,7 +18,7 @@ def write_log_file(outputfilename, data):
     f.write("Our randomly generated number is " + str(data) + " (" + time.strftime("%H:%M:%S") + ")\n")
     f.close()
 
-def get_colour_by_dice(spots):
+def get_colour_by_dice_roll(spots):
 
     if spots == 1:
 	return "red"
@@ -36,7 +36,7 @@ def get_colour_by_dice(spots):
 if __name__ == "__main__":
     outputfilename = "randomNumber"
     roll = get_random_number(1, 6)
-    colour = get_colour_by_dice(roll)
+    colour = get_colour_by_dice_roll(roll)
     write_log_file(outputfilename, colour)
-
+    print("debug print")
 
