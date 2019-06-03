@@ -9,7 +9,7 @@ import time
 import sys
 import matplotlib.pyplot as plt
 
-def get_random_number(start, end):
+def get_rnd_number(start, end):
     num = random.randint(start, end)
     return num
 
@@ -38,7 +38,7 @@ if __name__ == "__main__":
     outputfilename = "randomNumber"
     dicerolls = []
     for i in range(6):
-        roll = get_random_number(1, 6)
+        roll = get_rnd_number(1, 6)
         dicerolls.append(roll)
     print(dicerolls)
     sys.stdout.flush()
