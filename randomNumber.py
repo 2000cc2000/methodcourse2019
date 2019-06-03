@@ -45,5 +45,5 @@ if __name__ == "__main__":
     colour = get_colour_by_dice_roll(roll)
     write_log_file(outputfilename, colour)
     print("debug print")
-    plt.bar(range(6),rolls)
+    plt.barh(range(6),rolls)
     plt.show()
