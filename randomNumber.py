@@ -36,14 +36,14 @@ def get_colour_by_dice_roll(spots):
 
 if __name__ == "__main__":
     outputfilename = "randomNumber"
-    rolls = []
+    dicerolls = []
     for i in range(6):
         roll = get_random_number(1, 6)
-        rolls.append(roll)
-    print(rolls)
+        dicerolls.append(roll)
+    print(dicerolls)
     sys.stdout.flush()
-    colour = get_colour_by_dice_roll(roll)
+    colour = get_colour_by_dice_roll(dicerolls)
     write_log_file(outputfilename, colour)
     print("debug print")
-    plt.bar(range(6),rolls)
+    plt.bar(range(6),dicerolls)
     plt.show()
